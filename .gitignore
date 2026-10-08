@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.pytest_cache/
+
+# Runtime data and secrets (never publish)
+*.db
+*.db-wal
+*.db-shm
+*.sqlite3
+backend/data/
+.env
+*.log
+
+# Node / build output
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Test output
+test-results/
+playwright-report/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
